@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Getto - Web version of the mobile app." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getto</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Razorpay if needed -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+    <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLYkWRtenvhgoApe7EBdLH3rBI1X2ssWk" defer></script>
+
+    <!-- Let Flutter handle everything -->
+    <script src="flutter.js" defer></script>
+  </head>
+
+  <body>
+    <script>
+      window.addEventListener("load", function (ev) {
+        _flutter.loader.loadEntrypoint({
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
