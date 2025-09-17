@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "ac5f46fa43eed85d739f2133ae8b7f46",
-"assets/AssetManifest.bin.json": "251d6683f570a243ac489141f3171b55",
-"assets/AssetManifest.json": "2af5b936befce37e11379254b65c5a04",
+const RESOURCES = {"assets/AssetManifest.bin": "992cf76b81bc79a1b628d74d923b1ddb",
+"assets/AssetManifest.bin.json": "9d930880d38d72da454dd8c3b6adb568",
+"assets/AssetManifest.json": "d359ded1d96367bb79e4bcfe536321f0",
 "assets/assets/images/apartmentIcon.svg": "710da0379f23d29b0c8d4bf815d481ed",
 "assets/assets/images/arrows.svg": "5fb68c294e6474ea5eac307b9a8d9e88",
 "assets/assets/images/assigningADriver.svg": "c70b94b5c66dfbc322179c2ed6db8ab5",
@@ -27,6 +27,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ac5f46fa43eed85d739f2133ae8b7f46
 "assets/assets/images/deliveryMan.png": "815a65d1bd79419fa7d4447ba1918a25",
 "assets/assets/images/facebook.svg": "badc3e14902c571ea19f9689d10eee99",
 "assets/assets/images/filterIcon.svg": "7fa70914b3689507f4bfd95f8cd09ac8",
+"assets/assets/images/getto_loader.json": "e2197d087e3365f2571af4780470252a",
 "assets/assets/images/getto_logo.png": "60b424a2f695a4d923db533154d0b91e",
 "assets/assets/images/getto_logo_v2.png": "f1b798d1dda8c91c79ee1cfcac73e612",
 "assets/assets/images/homeIcon.svg": "338cede5f2449e122fe58f450c4660be",
@@ -234,14 +235,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "ac5f46fa43eed85d739f2133ae8b7f46
 "favicon.png": "60b424a2f695a4d923db533154d0b91e",
 "firebase-messaging-sw.js": "8c22821a9b40d5d4e5da60ce025c8cc8",
 "flutter.js": "83d881c1dbb6d6bcd6b42e274605b69c",
-"flutter_bootstrap.js": "bcb1ef887b6b484846738973d6f1651f",
+"flutter_bootstrap.js": "3edfe462a2de6b4ee116ad0fcb30aaa8",
 "icons/Icon-192.png": "d5af74df5a4a4f9f145efa4813399a04",
 "icons/Icon-512.png": "5058e9e700edb2801cb86623c7559140",
 "icons/Icon-maskable-192.png": "d5af74df5a4a4f9f145efa4813399a04",
 "icons/Icon-maskable-512.png": "5058e9e700edb2801cb86623c7559140",
 "index.html": "7f4bb0f50e8d795d014a3a8f4695d72a",
 "/": "7f4bb0f50e8d795d014a3a8f4695d72a",
-"main.dart.js": "5e87c8e55d3665edcbfc83777513c348",
+"main.dart.js": "44309af3d7b26ea2b5c2b1ec87aea38c",
 "manifest.json": "85bca26cc80b8fe49a76867469198ad2",
 "pose_detector.js": "5d660bcf0b2d06eef1af73517f3fd3cf",
 "version.json": "858b6d5df0c2acd91e900b4e885a1812"};
